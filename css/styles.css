@@ -1,3 +1,6 @@
-.font {
-    font-family: Raleway;
+:root {
+    --brand-background-color: #E5E5E5;
+
 }
+.body-bg-color {background-color: var(--brand-background-color
+    );}
