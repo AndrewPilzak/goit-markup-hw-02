@@ -1,6 +1,173 @@
 :root {
-    --brand-background-color: #E5E5E5;
+    --brand-background-color: #FFFFFF;
+    --main-font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+    --main-text-color: #212121;
+    --main-hover-color: #2196F3;
 
 }
-.body-bg-color {background-color: var(--brand-background-color
-    );}
+
+.body-styles {
+    background-color: var(--brand-background-color);
+    font-family: var(--main-font-family);
+    color: var(--main-text-color)
+
+}
+
+a, ul {
+    list-style: none;
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo span {
+    color: var(--main-hover-color)
+}
+
+.nav-menu, .address-top  {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.address-top {
+    color: #757575;
+}
+
+.link:hover, .address-top:hover {
+    color: var(--main-hover-color)
+}
+.link:focus, .address-top:focus {
+    color: var(--main-hover-color)
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.button:hover, .button:focus {
+    color: var(--brand-background-color);
+    background-color: var(--main-hover-color);
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.button1 {
+    width: 121px;
+    height: 38px;
+    left: 510px;
+    top: 174px;
+}
+
+.button2 {
+    width: 93px;
+    height: 38px;
+    left: 639px;
+    top: 174px;
+}
+
+.button3 {
+    width: 114px;
+    height: 38px;
+    left: 740px;
+    top: 174px;
+}
+
+.button4 {
+    width: 91px;
+    height: 38px;
+    left: 862px;
+    top: 174px;
+}
+
+.button5 {
+    width: 121px;
+    height: 38px;
+    left: 961px;
+    top: 174px;
+}
+
+.button1, .button2, .button3, .button4, .button5 {
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover,
+.button1:focus,
+.button2:focus,
+.button3:focus,
+.button4:focus,
+.button5:focus {
+    color: var(--brand-background-color);
+    background-color: var(--main-hover-color);
+    cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+
+.address-bottom  {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    /* 
+    JESZCZE TEGO NIE WIDAĆ
+    
+color: rgba(255, 255, 255, 0.6); 
+
+*/
+    color: #757575;
+}
+
+
+.address-bottom:hover, .address-bottom:focus  {
+    color: var(--main-hover-color)
+}
+
+.map {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    /* 
+    JESZCZE TEGO NIE WIDAĆ
+
+    color: var(--brand-background-color) */
+    color: #d3bebe;
+}
+
+.map:hover, .map:focus {
+    color: var(--main-hover-color)   
+}
