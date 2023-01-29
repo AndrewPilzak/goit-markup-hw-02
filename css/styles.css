@@ -3,6 +3,7 @@
     --main-font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
     --main-text-color: #212121;
     --main-hover-color: #2196F3;
+    --light-text-color: #757575;
 
 }
 
@@ -23,7 +24,7 @@ a, ul {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
@@ -34,12 +35,12 @@ a, ul {
 .nav-menu, .address-top  {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
 .address-top {
-    color: #757575;
+    color: var(--light-text-color);
 }
 
 .link:hover, .address-top:hover {
@@ -49,6 +50,71 @@ a, ul {
     color: var(--main-hover-color)
 }
 
+.h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    /* Z UKŁADU -> teraz nie będzie widać */
+    /* from the layout, now it will not be visible */
+
+    /* color: var(--brand-background-color) */
+    
+}
+
+.h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.h3-our-attributes {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}    
+
+.h3-team {
+    font-weight: 500;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.h3-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.text-our-attributes {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--light-text-color);
+}
+
+.text-team{
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--light-text-color);
+}
+
+.text-portfolio {
+    line-height: 1.88;
+    letter-spacing: 0.03em;    
+    color: var(--light-text-color);
+}
+
 .button {
     width: 200px;
     height: 50px;
@@ -56,8 +122,7 @@ a, ul {
     top: 430px;
     font-family: var(--main-font-family);
     font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -109,8 +174,7 @@ a, ul {
 .button1, .button2, .button3, .button4, .button5 {
     font-family: var(--main-font-family);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -134,19 +198,15 @@ a, ul {
 
 
 .address-bottom  {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    /* 
-    JESZCZE TEGO NIE WIDAĆ
-    
-color: rgba(255, 255, 255, 0.6); 
 
-*/
-    color: #757575;
+    /* Z UKŁADU -> teraz nie będzie widać */
+    /* from the layout, now it will not be visible */
+
+    /* color: rgba(255, 255, 255, 0.6); */
 }
 
 
@@ -155,17 +215,14 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .map {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     /* 
     JESZCZE TEGO NIE WIDAĆ
 
     color: var(--brand-background-color) */
-    color: #d3bebe;
 }
 
 .map:hover, .map:focus {
