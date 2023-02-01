@@ -108,7 +108,7 @@ a, ul {
     color: var(--main-text-color);
 }
 
-.h3-portfolio {
+.portfolio {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -159,6 +159,7 @@ a, ul {
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--background-color);
+    border-style: none;
     cursor: pointer;
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -206,9 +207,15 @@ a, ul {
 
 .button1, .button2, .button3, .button4, .button5 {
     font-family: var(--main-font);
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
     text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    background: var(--background-section);
+    border-radius: 4px;
+border-style: none;
 }
 
 .button1:hover,
