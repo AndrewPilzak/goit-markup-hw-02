@@ -215,7 +215,7 @@ a, ul {
     color: var(--main-text-color);
     background: var(--background-section);
     border-radius: 4px;
-border-style: none;
+    border-style: none;
 }
 
 .button1:hover,
